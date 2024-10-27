@@ -1,4 +1,4 @@
-import { UserBuilder } from "./user-builder";
+import { UserBuilder } from "./user-builder.js";
 
 const user = new UserBuilder("John Doe")
   .setAge(30)
